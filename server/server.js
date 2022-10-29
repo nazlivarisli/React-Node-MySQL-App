@@ -22,14 +22,14 @@ db.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
     var sql = "CREATE TABLE IF NOT EXISTS users (id INT AUTO_INCREMENT PRIMARY KEY, email VARCHAR(80) NOT NULL , password VARCHAR(80) NOT NULL)";
-    db.query(sql, function (err, result) {
+    db.query(sql, function (err) {
       if (err) throw err;
       
-      var records = [
+      var users = [
         [1, 'nazlivarisli@hotmail.com', 'nazli'],
         
       ];
-      db.query("INSERT IGNORE INTO users (id,email,password) VALUES ?", [records], function (err, result) {
+      db.query("INSERT IGNORE INTO users (id,email,password) VALUES ?", [users], function (err, result) {
      
         if (err) throw err;
        
