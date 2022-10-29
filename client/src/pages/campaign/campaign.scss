@@ -1,0 +1,52 @@
+.menu {
+    padding: 30px;
+    padding-top: 0px;
+}
+.navItem {
+    display: inline-block;
+    font-size: medium;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 4px solid transparent;
+    color: #DFDDDD;
+    font-weight: 600;
+    &:focus, &:hover{
+        border-bottom: 4px solid #62EBC2;
+        color: black;
+   }
+}
+nav {
+    list-style-type: none;
+}
+.icon {
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.pagination{
+    margin-left: 30px;
+}
+.middlePage{
+    display: flex;
+    width: auto;
+    flex-direction: column-reverse;
+    padding: 30px;
+}
+.pageContainer{
+    background-color: white;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    height: 2px;
+    color: #DFDDDD;
+    background-color: #DFDDDD;
+    border: none;
+    margin-bottom: 40px;
+}
+h3 {
+    color: #DFDDDD;
+    font-size: medium;
+    margin-bottom: 50px;
+}

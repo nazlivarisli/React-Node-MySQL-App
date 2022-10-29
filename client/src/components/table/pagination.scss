@@ -1,0 +1,19 @@
+.MuiPagination-root {
+    margin-top: 20px;
+    button {
+        color: black !important;
+        width:50px;
+        height:50px;
+        &:focus {
+            background-color: #62EBC2 !important;
+            color:white !important;
+       }
+   }
+    svg{
+        fill:#62EBC2 !important;
+       ;
+   }
+    ul{
+        margin-left: 30px;
+   }
+}
