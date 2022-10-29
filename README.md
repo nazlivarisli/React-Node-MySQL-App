@@ -5,14 +5,14 @@ Installation
 Client
 
     $ cd client
-    $ npm install or $ yarn install
-    $ npm start or $ yarn start
+    $ npm install 
+    $ npm start  
 
 Server
 
     Change your mySQL database data server/server.js
     $ cd server
-    $ npm install or $ yarn
+    $ npm install 
     $ nodemon server.js
 
 
